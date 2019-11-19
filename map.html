@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!--<meta http-equiv="x-ua-compatible" content="ie=edge" />-->
+    <meta name="viewport" content="initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Simple Me</title>
+    <style>
+    /*Have this style here so it doesn't affect the other pages*/
+    #map{
+      height: 100%;
+    }
+    html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+    </style>
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>-->
+    <script src="js/mymap.js"></script>
+    <script async defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB5BUZByzXKzWpIJIZ4zGLNn-RF4xZJsVQ&callback=initMap"
+    ></script>
+  </head>
+  <body class="mapBody">
+    <nav>
+      <ul>
+        <li><a href="index.html">About Me</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="pets.html">My Pets</a></li>
+        <li><a href="pets-fixed.html">My Pets Fixed</a></li>
+        <li><a href="map.html">Map</a></li>
+      </ul>
+    </nav>
+
+    <h1>My Google Maps</h1>
+
+    <div id="map"></div>
+</html>

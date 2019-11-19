@@ -1,0 +1,382 @@
+/*Applies to all*/
+/* Liked this for possibly resume but not really for About me page
+#wrapper{
+  width: 960px;
+  margin: 0 auto;
+}
+*/
+nav{
+  background-color: #660066;
+  overflow: hidden;
+  text-align: center;
+  /*border: .1em solid white;*/
+  border-width: thick;
+  font-family: "Times New Roman", serif, monospace;
+  /*color: #B8E1FF;
+  #D1D1D1  -  gray color*/
+}
+nav ul{
+  list-style-type: none;
+  margin:0;
+  padding: 0;
+}
+
+nav li{
+  display: inline;
+  /*float: left;*/
+}
+
+nav ul li a{
+  display: inline-block;
+  color: white;
+  padding: 1em;
+  text-decoration: none;
+}
+nav ul li a:hover{
+  background-color: #D164D1;
+}
+
+table{
+  width: 100%;
+}
+table, td{
+  border: 1px solid;
+  border-color: transparent;
+  width: auto;
+
+  text-align: left;
+  margin: auto;
+  vertical-align: top;
+}
+
+h1{
+  text-align: center;
+}
+
+span {
+  text-decoration: underline;
+}
+
+.span-strong{
+  font-weight: 600;
+}
+
+.margin-lr div{
+  margin-left: 1.1em;
+  margin-right: 1.1em;
+}
+.mapBody div #map{ /*The div above is messing up my google maps. This will hopefully fix it*/
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.align-center{
+  margin: auto;
+  width: 60%
+}
+
+.float-left{
+  float: left;
+}
+
+.float-right{
+  float: right;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.lora-font{
+  font-family: 'Lora', "Times New Roman", serif;
+}
+
+.img-center{
+  text-align: center;
+}
+
+/*index.html*/
+.about-me{
+  text-align: left;
+}
+.hi-color{
+  color: #211103;
+  font-family: 'Lora', "Times New Roman", serif;
+
+}
+.left-em{
+  margin-left: .5em;
+}
+
+.border1{
+  border-style: dashed;
+  border-color: silver;
+  border-radius: .4em;
+  border-width: medium;
+  padding: .25em;
+}
+
+.border2{
+  border-style: solid;
+  border-color: black;
+  border-radius: 1em;
+  border-width: thick;
+  padding: .1em;
+}
+
+.curr-jobs, .other-act, .fav-books, .fav-shows, .fav-games{
+  /*font-family: 'Cousine', monospace, serif;*/
+
+}
+
+/*resume.html*/
+.resume-bc{
+  font-family: 'Lora', "Times New Roman", serif;
+}
+
+.hr-color{
+  color: #003366;
+  text-align: center;
+}
+
+.education-color, .courses-color, .skills-color, .p-ex-color, .l-ex-color, .projects-color, .e-a-color{
+  color: #211103;
+  text-align: center;
+}
+/*
+.education-color{
+  color: #990000; /*dark red/
+  text-align: center;
+}
+
+.courses-color{
+  color: #CC6600; /*dark orange
+  text-align: center;
+}
+
+.skills-color{
+  color: #CC9900; /*dark yellow
+  text-align: center;
+}
+
+.p-ex-color{ /*dark green
+  color: #336600;
+  text-align: center;
+}
+
+.l-ex-color{ /*dark blue
+  color: #003366;
+  text-align: center;
+}
+
+.projects-color{ /*dark indigo
+  color: #000066;
+  text-align: center;
+}
+
+.e-a-color{ /*dark purple
+  color: #660066;
+  text-align: center;
+}
+*/
+
+/*pets.html*/
+.pets-p{
+  margin: auto;
+  width: 60%;
+  /*border: .2em solid;*/
+}
+.playball{
+  font-family: 'Playball', "Times New Roman", serif, cursive;
+  width: max-content;
+}
+
+.Inconsolata{
+  font-family: 'Inconsolata', serif, monospace;
+  color: #003366;
+}
+
+.hp-color{
+  color: #211103;
+  text-align: center;
+}
+
+.zafi, .luna{
+  border-style: solid;
+  border-color: gray;
+  border-width: thick;
+  margin: auto;
+  padding: .5em;
+  width: 60%;
+  text-align: left;
+}
+
+.angel{
+  border-style: solid;
+  border-color: black;
+  border-width: thick;
+  margin: auto;
+  padding: .5em;
+  width: 60%;
+  text-align: right;
+}
+
+/*fixed pets.html*/
+body.fixed div{
+  margin-left: 200px;
+}
+.fixedpets-p{
+  margin: 20px;
+  width: 200px;
+  /*border: .2em solid;*/
+}
+.fixedplayball{
+  font-family: 'Playball', "Times New Roman", serif, cursive;
+  width: 100px;
+}
+
+.fixedInconsolata{
+  font-family: 'Inconsolata', serif, monospace;
+  color: #003366;
+}
+
+.fixedhp-color{
+  color: #211103;
+  text-align: center;
+}
+
+.fixedzafi, .fixedluna{
+  border-style: solid;
+  border-color: gray;
+  border-width: 5px;
+  margin-left: 200px;
+  padding: 8px;
+  width: 500px;
+  text-align: left;
+}
+
+.fixedangel{
+  border-style: solid;
+  border-color: black;
+  border-width: 5px;
+  margin-left: 200px;
+  padding: 8px;
+  width: 500px;
+  text-align: right;
+}
+
+
+@media screen and (min-width: 825px) {
+  #wrapper{
+    width: 1000px;
+    margin: 0 auto;
+  }
+  body {
+    background-color: #D0FEF5;
+  }
+
+  h1, h2, h3, h4{
+    background-color: #BCB6FF;
+
+  }
+  .pets-p{
+    margin: auto;
+    width: auto;
+    margin-left: 5%;
+  }
+  .zafi{
+    border-style: solid;
+    border-color: gray;
+    border-width: thick;
+    margin: 0 2%;
+    float: left;
+    padding: .5em;
+    width: 27%;
+    text-align: left;
+  }
+
+  .angel{
+    border-style: solid;
+    border-color: black;
+    border-width: thick;
+    margin: 0;
+    float: left;
+    padding: .5em;
+    width: 27%;
+    text-align: right;
+  }
+
+  .luna{
+    border-style: solid;
+    border-color: gray;
+    border-width: thick;
+    margin: 0 2%;
+    float: left;
+    padding: .5em;
+    width: 27%;
+    text-align: left;
+  }
+
+  #map{
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: 825px) {
+  nav{
+    background-color: #660000;
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    /*border: .1em solid white;*/
+    border-width: thick;
+    font-family: "Times New Roman", serif, monospace;
+    /*color: #B8E1FF;
+    #D1D1D1  -  gray color*/
+  }
+  nav ul{
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+  }
+
+  nav li{
+    display: inline;
+    /*float: left;*/
+  }
+
+  nav ul li a{
+    display: inline-block;
+    color: white;
+    padding: 1em;
+    text-decoration: none;
+  }
+  nav ul li a:hover{
+    background-color: #D16464;
+    text-decoration: underline overline;
+  }
+
+  body {
+    background-color: #D1FFD2;
+  }
+
+  h1, h2, h3, h4{
+    background-color: #FFB5B5;
+
+  }
+  #wrapper{
+    width: 600px;
+    margin: 0 auto;
+  }
+
+  /*Modifying pets-p*/
+  .pets-p{
+    margin: auto;
+    width: auto;
+  }
+
+  #map{
+    height: 100%;
+  }
+}
